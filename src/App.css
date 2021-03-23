@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#glitchContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url('./assets/New Project (1).webp') no-repeat;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+  position: absolute;
+  background: url('./assets/New Project (1).webp') no-repeat;
+  background-attachment: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.d-none {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.slider {
+  position: absolute;
+  bottom: 65px;
+  width: 99vw;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 35px;
+  /* Set a specific slider handle width */
+  height: 35px;
+  /* Slider handle height */
+  background: #ff3d1b;
+  border: 2px solid #fff;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+  border-radius: 100px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  /* Set a specific slider handle width */
+  height: 25px;
+  /* Slider handle height */
+  background: #00ff40;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+.slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  width: 100%;
+  /* Full-width */
+  height: 1px;
+  /* Specified height */
+
+  background: #ff0000;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 0.7;
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s;
+  /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.controlBoard {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+margin-bottom: 8px;
+}
+
+.controlBoard img.mainBtns {
+  cursor: pointer;
+  height: 30px;
+}
+
+.controlBoard img {
+  height: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.controlBoard img path{
+  fill: red;
 }
