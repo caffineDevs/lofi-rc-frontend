@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/lofi-rc-frontend/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/lofi-rc-frontend/static/js/main.cc3b2741.chunk.js",
-    "main.js.map": "/lofi-rc-frontend/static/js/main.cc3b2741.chunk.js.map",
-    "runtime-main.js": "/lofi-rc-frontend/static/js/runtime-main.ea690d05.js",
-    "runtime-main.js.map": "/lofi-rc-frontend/static/js/runtime-main.ea690d05.js.map",
-    "static/js/2.140ccd77.chunk.js": "/lofi-rc-frontend/static/js/2.140ccd77.chunk.js",
-    "static/js/2.140ccd77.chunk.js.map": "/lofi-rc-frontend/static/js/2.140ccd77.chunk.js.map",
-    "static/js/3.aef2bc49.chunk.js": "/lofi-rc-frontend/static/js/3.aef2bc49.chunk.js",
-    "static/js/3.aef2bc49.chunk.js.map": "/lofi-rc-frontend/static/js/3.aef2bc49.chunk.js.map",
+    "main.css": "/lofi-rc-frontend/static/css/main.66575417.chunk.css",
+    "main.js": "/lofi-rc-frontend/static/js/main.65ea81b0.chunk.js",
+    "main.js.map": "/lofi-rc-frontend/static/js/main.65ea81b0.chunk.js.map",
+    "runtime-main.js": "/lofi-rc-frontend/static/js/runtime-main.579bd5b1.js",
+    "runtime-main.js.map": "/lofi-rc-frontend/static/js/runtime-main.579bd5b1.js.map",
+    "static/js/2.46e98fd0.chunk.js": "/lofi-rc-frontend/static/js/2.46e98fd0.chunk.js",
+    "static/js/2.46e98fd0.chunk.js.map": "/lofi-rc-frontend/static/js/2.46e98fd0.chunk.js.map",
+    "static/js/3.f30cec78.chunk.js": "/lofi-rc-frontend/static/js/3.f30cec78.chunk.js",
+    "static/js/3.f30cec78.chunk.js.map": "/lofi-rc-frontend/static/js/3.f30cec78.chunk.js.map",
     "index.html": "/lofi-rc-frontend/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/lofi-rc-frontend/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.140ccd77.chunk.js.LICENSE.txt": "/lofi-rc-frontend/static/js/2.140ccd77.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/lofi-rc-frontend/static/media/logo.6ce24c58.svg"
+    "static/css/main.66575417.chunk.css.map": "/lofi-rc-frontend/static/css/main.66575417.chunk.css.map",
+    "static/js/2.46e98fd0.chunk.js.LICENSE.txt": "/lofi-rc-frontend/static/js/2.46e98fd0.chunk.js.LICENSE.txt",
+    "static/media/4.mp3": "/lofi-rc-frontend/static/media/4.40f52f22.mp3",
+    "static/media/App.css": "/lofi-rc-frontend/static/media/New Project (1).d4c5766e.webp",
+    "static/media/next.svg": "/lofi-rc-frontend/static/media/next.67303074.svg",
+    "static/media/pause.svg": "/lofi-rc-frontend/static/media/pause.71f299a4.svg",
+    "static/media/play.svg": "/lofi-rc-frontend/static/media/play.30e64f55.svg",
+    "static/media/prev.svg": "/lofi-rc-frontend/static/media/prev.d9000710.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea690d05.js",
-    "static/js/2.140ccd77.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.cc3b2741.chunk.js"
+    "static/js/runtime-main.579bd5b1.js",
+    "static/js/2.46e98fd0.chunk.js",
+    "static/css/main.66575417.chunk.css",
+    "static/js/main.65ea81b0.chunk.js"
   ]
 }
