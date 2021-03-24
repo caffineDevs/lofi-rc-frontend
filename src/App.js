@@ -13,6 +13,8 @@ function App() {
   const [slider, setslider] = useState({});
   const [currentSong, setcurrentSong] = useState(horse);
   const [songNumber, setsongNumber] = useState(1);
+  const apiBase = "https://lofi-station-backend.herokuapp.com/";
+  // const apiBase = "http://localhost:8080/";
 
   useEffect(() => {
     setaudCtrl(document.getElementById("aud"));
@@ -21,6 +23,7 @@ function App() {
     audCtrl.onended = function () {
       audCtrl.currentTime = 0;
       setisPlaying(false);
+      console.log('object')
     };
   }, []);
 
@@ -79,7 +82,7 @@ function App() {
     }
 
     await axios
-      .get(`https://lofi-station-backend.herokuapp.com/${songNumber}.mp3`, {
+      .get(`${apiBase}${songNumber}`, {
         responseType: "arraybuffer",
       })
       .then((res) => {
@@ -105,7 +108,7 @@ function App() {
       console.log(songNumber, "else-songNumber-nxt");
     }
     await axios
-      .get(`https://lofi-station-backend.herokuapp.com/${songNumber}.mp3`, {
+      .get(`${apiBase}${songNumber}`, {
         responseType: "arraybuffer",
       })
       .then((res) => {
