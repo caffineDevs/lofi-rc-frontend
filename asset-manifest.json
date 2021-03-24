@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lofi-rc-frontend/static/css/main.66575417.chunk.css",
-    "main.js": "/lofi-rc-frontend/static/js/main.65ea81b0.chunk.js",
-    "main.js.map": "/lofi-rc-frontend/static/js/main.65ea81b0.chunk.js.map",
+    "main.js": "/lofi-rc-frontend/static/js/main.b04b9a06.chunk.js",
+    "main.js.map": "/lofi-rc-frontend/static/js/main.b04b9a06.chunk.js.map",
     "runtime-main.js": "/lofi-rc-frontend/static/js/runtime-main.579bd5b1.js",
     "runtime-main.js.map": "/lofi-rc-frontend/static/js/runtime-main.579bd5b1.js.map",
     "static/js/2.46e98fd0.chunk.js": "/lofi-rc-frontend/static/js/2.46e98fd0.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.579bd5b1.js",
     "static/js/2.46e98fd0.chunk.js",
     "static/css/main.66575417.chunk.css",
-    "static/js/main.65ea81b0.chunk.js"
+    "static/js/main.b04b9a06.chunk.js"
   ]
 }
