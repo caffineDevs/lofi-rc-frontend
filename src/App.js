@@ -23,7 +23,10 @@ function App() {
     audCtrl.onended = function () {
       audCtrl.currentTime = 0;
       setisPlaying(false);
-      console.log('object')
+      console.log("object");
+    };
+    return () => {
+      window.removeEventListener("keypress", handleKeypress, false);
     };
   }, []);
 
